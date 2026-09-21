@@ -1,18 +1,25 @@
-# Kasane Teto VS Code Theme (重音テト)
+# Kasane Teto VS Code Theme (重音テト) 🥖
 
 A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
-![Kasane Teto Icon](assets/icon.png)
+<p align="center">
+  <img src="assets/icon.png" alt="Kasane Teto Icon" width="128" />
+</p>
+
+## 📸 Preview
+
+![Kasane Teto Theme Preview](assets/preview.png)
 
 ## 🎨 Color Palette
 
 | Color | Hex | RGB | Usage |
 | :--- | :--- | :--- | :--- |
-| **Teto Crimson Red** | `#ff0045` | `(255, 0, 69)` | Primary accents, buttons, cursor, active borders, function names, error highlights |
-| **Midnight Navy** | `#06053b` | `(6, 5, 59)` | Deep editor background, terminal background |
-| **Soft Pastel Pink** | `#eda7ba` | `(237, 167, 186)` | Strings, parameters, JSON keys, tag attributes, secondary accents |
-| **Vibrant Magenta** | `#d924d5` | `(217, 36, 213)` | Keywords, control flow, operators, storage types, git untracked |
-| **Slate Gray** | `#3f4750` | `(63, 71, 80)` | Line numbers, subtle borders, dividers, guide lines, inactive elements |
+| **Point Accent** | `#ff0045` | `(255, 0, 69)` | Primary point color: cursor, active tab border, focus rings, buttons, function names |
+| **Secondary Pink** | `#eda7ba` | `(237, 167, 186)` | Strings, parameters, JSON keys, tag attributes, active line numbers |
+| **Slate Grey (Canvas)** | `#252a32` | `(37, 42, 50)` | Main editor canvas & panels |
+| **Slate Grey (Borders)** | `#3f4750` | `(63, 71, 80)` | Structural borders, dividers, guide lines, inactive elements |
+| **Vibrant Magenta** | `#d924d5` | `(217, 36, 213)` | Keywords, control flow, operators, storage types |
+| **Midnight Navy** | `#06053b` | `(6, 5, 59)` | Deep contrasting tone |
 
 ---
 
