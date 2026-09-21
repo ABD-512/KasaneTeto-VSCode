@@ -1,0 +1,43 @@
+{
+  "name": "kasane-teto-theme",
+  "displayName": "Kasane Teto Theme",
+  "description": "A vibrant VS Code color theme inspired by Kasane Teto (重音テト)",
+  "version": "0.1.0",
+  "publisher": "SinsuSquid",
+  "author": "SinsuSquid",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SinsuSquid/KasaneTeto-VSCode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SinsuSquid/KasaneTeto-VSCode/issues"
+  },
+  "homepage": "https://github.com/SinsuSquid/KasaneTeto-VSCode#readme",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "kasane teto",
+    "teto",
+    "vocaloid",
+    "utau",
+    "synthesizer v",
+    "theme",
+    "dark",
+    "color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kasane Teto Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kasane-teto-color-theme.json"
+      }
+    ]
+  }
+}

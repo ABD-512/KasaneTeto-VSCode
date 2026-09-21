@@ -1,0 +1,8 @@
+.vscode/**
+.vscode-test/**
+fatass.png
+test_*.png
+crop_*.png
+.git/**
+.gitignore
+node_modules/**
