@@ -94,4 +94,40 @@ colorscheme kasane-teto
 let g:airline_theme = 'kasane_teto'
 ```
 
+---
+
+## 🪟 tmux Theme
+
+A companion status bar and interface theme for **tmux**.
+
+### Quick Setup
+```bash
+# Link tmux configuration
+ln -sfn "$(pwd)/tmux/kasane-teto.tmux.conf" ~/.config/kasane-teto.tmux.conf
+```
+
+Add to your `~/.tmux.conf`:
+```tmux
+source-file ~/.config/kasane-teto.tmux.conf
+```
+
+---
+
+## 📊 btop Theme
+
+A companion system monitor theme for **btop**.
+
+### Quick Setup
+```bash
+# Link btop theme
+mkdir -p ~/.config/btop/themes
+ln -sfn "$(pwd)/btop/kasane-teto.theme" ~/.config/btop/themes/kasane-teto.theme
+```
+
+In `~/.config/btop/btop.conf`:
+```ini
+color_theme = "/home/bgkang/.config/btop/themes/kasane-teto.theme"
+```
+
+
 

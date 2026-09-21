@@ -1,0 +1,68 @@
+# ==============================================================================
+# Kasane Teto Theme for btop 🥖 (重音テト)
+# Colors:
+#   #ff0045 - Teto Red (Point Accent)
+#   #eda7ba - Soft Pastel Pink
+#   #d924d5 - Vibrant Magenta
+#   #3f4750 - Slate Grey
+#   #252a32 - Canvas Grey
+# ==============================================================================
+
+# All graphs and meters
+theme[main_bg]="#252a32"
+theme[main_fg]="#f0eef5"
+theme[title]="#ff0045"
+theme[hi_fg]="#d924d5"
+theme[selected_bg]="#ff0045"
+theme[selected_fg]="#ffffff"
+theme[inactive_fg]="#6a7688"
+
+# CPU box
+theme[cpu_box]="#ff0045"
+theme[cpu_core]="#d924d5"
+theme[cpu_item]="#f0eef5"
+
+# Mem/Disk box
+theme[mem_box]="#d924d5"
+theme[mem_item]="#f0eef5"
+
+# Net box
+theme[net_box]="#eda7ba"
+theme[net_item]="#f0eef5"
+
+# Proc box
+theme[proc_box]="#3f4750"
+theme[proc_item]="#f0eef5"
+
+# Graph colors
+theme[temp_start]="#eda7ba"
+theme[temp_mid]="#d924d5"
+theme[temp_end]="#ff0045"
+
+theme[cpu_start]="#eda7ba"
+theme[cpu_mid]="#d924d5"
+theme[cpu_end]="#ff0045"
+
+theme[free_start]="#eda7ba"
+theme[free_mid]="#d924d5"
+theme[free_end]="#3f4750"
+
+theme[cached_start]="#eda7ba"
+theme[cached_mid]="#d924d5"
+theme[cached_end]="#ff0045"
+
+theme[available_start]="#eda7ba"
+theme[available_mid]="#d924d5"
+theme[available_end]="#ff0045"
+
+theme[used_start]="#3f4750"
+theme[used_mid]="#d924d5"
+theme[used_end]="#ff0045"
+
+theme[download_start]="#eda7ba"
+theme[download_mid]="#d924d5"
+theme[download_end]="#ff0045"
+
+theme[upload_start]="#ff0045"
+theme[upload_mid]="#d924d5"
+theme[upload_end]="#eda7ba"
