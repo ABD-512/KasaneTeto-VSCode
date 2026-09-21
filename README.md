@@ -1,5 +1,9 @@
 # Kasane Teto VS Code Theme (重音テト) 🥖
 
+[![Visual Studio Marketplace](https://img.shields.io/badge/Visual_Studio_Marketplace-Kasane_Teto_Theme-ff0045?logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/SinsuSquid.kasane-teto-theme?color=d924d5)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/SinsuSquid.kasane-teto-theme?color=eda7ba)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
+
 A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
 <p align="center">
@@ -23,9 +27,16 @@ A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
 ---
 
-## 🚀 How to Apply Locally
+## 🚀 Installation
 
-### Option 1: Direct Link (Instant Hot-Reload)
+### Option 1: VS Code Marketplace
+Install directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme) or via command line:
+
+```bash
+code --install-extension SinsuSquid.kasane-teto-theme
+```
+
+### Option 2: Local Development Link (Instant Hot-Reload)
 Link the repository directly into your VS Code extensions folder:
 
 ```bash
@@ -36,9 +47,8 @@ Then in VS Code:
 1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and run `Developer: Reload Window`.
 2. Press `Ctrl+K Ctrl+T` and select **Kasane Teto Dark**.
 
-### Option 2: Install as .vsix Package
+### Option 3: Install from .vsix Package
 ```bash
-npx @vscode/vsce package --no-git-tag-version
 code --install-extension kasane-teto-theme-0.1.0.vsix
 ```
 
