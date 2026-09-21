@@ -1,0 +1,95 @@
+# ==============================================================================
+# Kasane Teto Starship Prompt Theme (重音テト)
+# Colors:
+#   #ff0045 - Point Color (Crimson Red)
+#   #06053b - Midnight Navy
+#   #eda7ba - Soft Pastel Pink
+#   #d924d5 - Vibrant Magenta
+#   #3f4750 - Slate Grey
+# ==============================================================================
+
+format = """
+$directory\
+$git_branch\
+$git_status\
+$package\
+$nodejs\
+$python\
+$rust\
+$golang\
+$cmd_duration\
+$line_break\
+$character"""
+
+palette = "kasane_teto"
+
+[palettes.kasane_teto]
+teto_red = "#ff0045"
+teto_pink = "#eda7ba"
+teto_magenta = "#d924d5"
+slate_grey = "#3f4750"
+midnight = "#06053b"
+light_grey = "#788497"
+fg_white = "#f0eef5"
+
+[character]
+success_symbol = "[🥖](bold teto_red) "
+error_symbol = "[🥖](bold teto_magenta) "
+vimcmd_symbol = "[🪽](bold teto_pink) "
+
+[directory]
+style = "bold teto_pink"
+read_only = " 󰌾"
+read_only_style = "bold teto_red"
+truncation_length = 3
+truncation_symbol = "…/"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+symbol = " "
+style = "bold teto_magenta"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+style = "bold teto_red"
+format = "([$all_status$ahead_behind]($style) )"
+conflicted = "🏳 "
+ahead = "⇡${count} "
+behind = "⇣${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+untracked = "?${count} "
+stashed = "📦 "
+modified = "!${count} "
+staged = "+${count} "
+renamed = "»${count} "
+deleted = "✘${count} "
+
+[package]
+symbol = "󰏗 "
+style = "bold slate_grey"
+format = "is [$symbol$version]($style) "
+
+[nodejs]
+symbol = " "
+style = "bold teto_pink"
+format = "via [$symbol($version )]($style)"
+
+[python]
+symbol = " "
+style = "bold teto_pink"
+format = "via [${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+
+[rust]
+symbol = "󱘗 "
+style = "bold teto_magenta"
+format = "via [$symbol($version )]($style)"
+
+[golang]
+symbol = " "
+style = "bold teto_magenta"
+format = "via [$symbol($version )]($style)"
+
+[cmd_duration]
+min_time = 2_000
+style = "bold light_grey"
+format = "took [$duration]($style) "

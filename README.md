@@ -47,3 +47,20 @@ code --install-extension kasane-teto-theme-0.1.0.vsix
 ## 🥖 Features
 - **High Readability**: High-contrast syntax highlighting fine-tuned for TypeScript, JavaScript, Python, Rust, Go, HTML/CSS, JSON, and Markdown.
 - **Kasane Teto Aesthetics**: Features the sitting plushie icon with a transparent background.
+
+---
+
+## 🚀 Starship Prompt Theme
+
+A companion Starship prompt configured with Kasane Teto colors and baguette (`🥖`) character!
+
+### Quick Setup
+```bash
+# Link starship configuration
+mkdir -p ~/.config/starship
+ln -sfn "$(pwd)/starship/starship.toml" ~/.config/starship/kasane-teto.toml
+
+# Or source the full shell environment (includes FZF & LS_COLORS):
+source "$(pwd)/starship/teto.env.sh"
+```
+
