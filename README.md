@@ -1,9 +1,5 @@
 # Kasane Teto VS Code Theme (重音テト) 🥖
 
-[![Visual Studio Marketplace](https://img.shields.io/badge/Visual_Studio_Marketplace-Kasane_Teto_Theme-ff0045?logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
-[![Version](https://img.shields.io/visual-studio-marketplace/v/SinsuSquid.kasane-teto-theme?color=d924d5)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/SinsuSquid.kasane-teto-theme?color=eda7ba)](https://marketplace.visualstudio.com/items?itemName=SinsuSquid.kasane-teto-theme)
-
 A vibrant dark VS Code theme inspired by **Kasane Teto** (UTAU / Synthesizer V).
 
 <p align="center">
