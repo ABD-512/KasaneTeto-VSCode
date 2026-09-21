@@ -74,3 +74,24 @@ ln -sfn "$(pwd)/starship/starship.toml" ~/.config/starship/kasane-teto.toml
 source "$(pwd)/starship/teto.env.sh"
 ```
 
+---
+
+## ⚡ Vim / Neovim Theme
+
+A companion colorscheme and **vim-airline** theme for Vim and Neovim.
+
+### Quick Setup
+```bash
+# Link colorscheme
+mkdir -p ~/.vim/colors ~/.vim/autoload/airline/themes
+ln -sfn "$(pwd)/vim/colors/kasane-teto.vim" ~/.vim/colors/kasane-teto.vim
+ln -sfn "$(pwd)/vim/autoload/airline/themes/kasane_teto.vim" ~/.vim/autoload/airline/themes/kasane_teto.vim
+```
+
+In your `.vimrc` or `init.vim`:
+```vim
+colorscheme kasane-teto
+let g:airline_theme = 'kasane_teto'
+```
+
+
