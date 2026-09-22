@@ -1,0 +1,23 @@
+{
+  "name": "Kasane Teto",
+  "cursorColor": "#ff0045",
+  "selectionBackground": "#ff0045",
+  "background": "#1e2228",
+  "foreground": "#f0eef5",
+  "black": "#252a32",
+  "red": "#ff0045",
+  "green": "#3ddc97",
+  "yellow": "#f9c74f",
+  "blue": "#5c7cfa",
+  "purple": "#d924d5",
+  "cyan": "#00f0ff",
+  "white": "#f0eef5",
+  "brightBlack": "#4d5663",
+  "brightRed": "#ff336a",
+  "brightGreen": "#52f2ab",
+  "brightYellow": "#ffe066",
+  "brightBlue": "#748ffc",
+  "brightPurple": "#e84df2",
+  "brightCyan": "#5efcff",
+  "brightWhite": "#ffffff"
+}

@@ -125,5 +125,75 @@ In `~/.config/btop/btop.conf`:
 color_theme = "/home/bgkang/.config/btop/themes/kasane-teto.theme"
 ```
 
+---
 
+## 💻 Windows Terminal Theme
 
+A companion color scheme for **Windows Terminal**.
+
+### Quick Setup
+
+#### Option 1: Add to `settings.json`
+Add the scheme from [`windows-terminal/kasane-teto.json`](windows-terminal/kasane-teto.json) to the `schemes` array in your Windows Terminal `settings.json` (`Ctrl+Shift+,`):
+
+```json
+{
+  "name": "Kasane Teto",
+  "cursorColor": "#ff0045",
+  "selectionBackground": "#ff0045",
+  "background": "#1e2228",
+  "foreground": "#f0eef5",
+  "black": "#252a32",
+  "red": "#ff0045",
+  "green": "#3ddc97",
+  "yellow": "#f9c74f",
+  "blue": "#5c7cfa",
+  "purple": "#d924d5",
+  "cyan": "#00f0ff",
+  "white": "#f0eef5",
+  "brightBlack": "#4d5663",
+  "brightRed": "#ff336a",
+  "brightGreen": "#52f2ab",
+  "brightYellow": "#ffe066",
+  "brightBlue": "#748ffc",
+  "brightPurple": "#e84df2",
+  "brightCyan": "#5efcff",
+  "brightWhite": "#ffffff"
+}
+```
+
+Then select **Kasane Teto** in your profile settings or set in `profiles.defaults`:
+```json
+"colorScheme": "Kasane Teto"
+```
+
+#### Option 2: JSON Fragment Extension
+Copy [`windows-terminal/kasane-teto-fragment.json`](windows-terminal/kasane-teto-fragment.json) to your Windows Terminal Fragments directory:
+```powershell
+New-Item -ItemType Directory -Force "$env:LOCALAPPDATA\Microsoft\Windows Terminal\Fragments\KasaneTeto"
+Copy-Item "windows-terminal\kasane-teto-fragment.json" "$env:LOCALAPPDATA\Microsoft\Windows Terminal\Fragments\KasaneTeto\kasane-teto.json"
+```
+
+---
+
+## 🐱 Kitty Terminal Theme
+
+A companion colorscheme for **Kitty**.
+
+### Quick Setup
+
+```bash
+# Link kitty theme
+mkdir -p ~/.config/kitty/themes
+ln -sfn "$(pwd)/kitty/kasane-teto.conf" ~/.config/kitty/themes/kasane-teto.conf
+```
+
+Add to your `~/.config/kitty/kitty.conf`:
+```conf
+include themes/kasane-teto.conf
+```
+
+Or apply directly via the Kitty theme kitten:
+```bash
+kitty +kitten themes --reload-in=all Kasane\ Teto
+```
