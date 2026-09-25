@@ -62,11 +62,12 @@ A companion Starship prompt configured with Kasane Teto colors and baguette (`ðŸ
 
 ### Quick Setup
 ```bash
-# Link starship configuration
+# Step 1: copy the theme config
 mkdir -p ~/.config/starship
 ln -sfn "$(pwd)/starship/starship.toml" ~/.config/starship/kasane-teto.toml
 
-# Or source the full shell environment (includes FZF & LS_COLORS):
+# Step 2: source the shell environment (sets STARSHIP_CONFIG, FZF & LS_COLORS)
+# Add this to your ~/.bashrc or ~/.zshrc:
 source "$(pwd)/starship/teto.env.sh"
 ```
 
@@ -117,12 +118,12 @@ A companion system monitor theme for **btop**.
 ```bash
 # Link btop theme
 mkdir -p ~/.config/btop/themes
-ln -sfn "$(pwd)/btop/kasane-teto.theme" ~/.config/btop/themes/kasane-teto.theme
+cp "$(pwd)/btop/kasane-teto.theme" ~/.config/btop/themes/kasane-teto.theme
 ```
 
 In `~/.config/btop/btop.conf`:
 ```ini
-color_theme = "/home/bgkang/.config/btop/themes/kasane-teto.theme"
+color_theme = "$HOME/.config/btop/themes/kasane-teto.theme"
 ```
 
 ---
