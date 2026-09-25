@@ -118,7 +118,7 @@ A companion system monitor theme for **btop**.
 ```bash
 # Link btop theme
 mkdir -p ~/.config/btop/themes
-cp "$(pwd)/btop/kasane-teto.theme" ~/.config/btop/themes/kasane-teto.theme
+ln -sfn "$(pwd)/btop/kasane-teto.theme" ~/.config/btop/themes/kasane-teto.theme
 ```
 
 In `~/.config/btop/btop.conf`:
